@@ -5,14 +5,22 @@ library(dplyr)
 numbers <- c(2,50,66)
  numbers <- round_half_up(numbers)
 
- numbers <- c(2,50,66) %>%
-  round_half_up()
+
 
 # claires numbers
+ 
+ numbers <- c(2,50,66)
 
 # elaines numbers
+ 
+ numbers <- c(2,50,66)
 
 # carlys numbers
+ 
+ numbers <- c(2,50,66)
+ 
+numbers <- numbers %>%
+   round_half_up()
 
 
 for (number in numbers) {
