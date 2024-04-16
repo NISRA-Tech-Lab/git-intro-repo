@@ -2,15 +2,17 @@ library(janitor)
 library(dplyr)
 
 # kyles numbers
-numbers <- c(1.4,2.5,3.9)
-numbers <- round_half_up(numbers)
+numbers <- c(2,50,66)
+ numbers <- round_half_up(numbers)
 
-numbers <- c(1.4,2.5,3.9) %>% 
+ numbers <- c(2,50,66) %>%
   round_half_up()
 
 # claires numbers
 
 # elaines numbers
+
+# carlys numbers
 
 
 for (number in numbers) {
