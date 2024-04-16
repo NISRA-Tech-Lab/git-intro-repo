@@ -17,7 +17,7 @@ numbers <- c(2,50,66)
 
 # carlys numbers
  
- numbers <- c(2,50,66)
+ numbers <- c(3,100,255)
  
 numbers <- numbers %>%
    round_half_up()
